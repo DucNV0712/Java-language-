@@ -3,16 +3,16 @@ import java.util.Scanner;
 
 public class Assignment1 {
     public static void main(String[] args) {
-        int a;
-        int b;
-        int c;
+        double a;
+        double b;
+        double c;
         Scanner nhap = new Scanner(System.in);
         System.out.println("Nhập a:");
-        a = nhap.nextInt();
+        a = nhap.nextDouble();
         System.out.println("Nhập b:");
-        b = nhap.nextInt();
+        b = nhap.nextDouble();
         System.out.println("Nhập c:");
-        c = nhap.nextInt();
+        c = nhap.nextDouble();
         if(a <= 0 || b <=0 || c <= 0){
             System.out.println("Hãy nhập số dương");
             //kiểm tra tam giác
