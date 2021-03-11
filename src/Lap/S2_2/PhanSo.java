@@ -1,4 +1,4 @@
-package S2_2;
+package Lap.S2_2;
 
 import java.util.Scanner;
 
