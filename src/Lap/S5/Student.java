@@ -36,6 +36,8 @@ public class Student extends Person{
 
     public void inforIn(){
         Scanner sc = new Scanner(System.in);
+        super.inforIn();
+
         System.out.println("Nhập mã SV:");
         id = sc.nextInt();
         System.out.println("Nhập Điểm Thi:");
@@ -45,9 +47,10 @@ public class Student extends Person{
 
     }
     public void inforOut(){
-        System.out.println("mã SV:"+getId());
-        System.out.println("Điểm Thi:"+getTest());
-        System.out.println("email:"+getEmail());
+        super.inforOut();
+        System.out.println("mã SV:"+this.getId());
+        System.out.println("Điểm Thi:"+this.getTest());
+        System.out.println("email:"+this.getEmail());
 
     }
     public void kiemTra(){

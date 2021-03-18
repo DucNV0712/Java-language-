@@ -10,6 +10,5 @@ public class Main {
         st.inforIn();
         st.inforOut();
         st.kiemTra();
-
     }
 }

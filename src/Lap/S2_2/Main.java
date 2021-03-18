@@ -18,9 +18,13 @@ public class Main {
         Ps2.inPhanso();
         System.out.println("Cộng Phân Số");
 
+
         System.out.println("Trừ Phân Số");
+
         System.out.println("Nhân Phân Số");
+
         System.out.println("Chia Phân Số");
+
 
 
     }

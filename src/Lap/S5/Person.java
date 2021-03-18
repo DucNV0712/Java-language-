@@ -55,20 +55,22 @@ public class Person {
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhập Họ Tên:" );
-        fullName =sc.next();
+        fullName =sc.nextLine();
         System.out.println("Nhập giới tính:");
-        Gender = sc.next();
+        Gender = sc.nextLine();
         System.out.println("Nhập Ngày Sinh:");
-         birthday =sc.next();
+         birthday =sc.nextLine();
         System.out.println("Nhập Địa Chỉ:");
-         address = sc.next();
+         address = sc.nextLine();
     }
     public void inforOut()
     {
-        System.out.println("Họ Tên:"+ getFullName());
-        System.out.println("giới tính:"+getGender());
-        System.out.println("Ngày Sinh:"+getBirthday());
-        System.out.println("Địa Chỉ:"+getAddress());
+        System.out.println("Họ Tên:"+this.getFullName());
+        System.out.println("giới tính:"+this.getGender());
+        System.out.println("Ngày Sinh:"+this.getBirthday());
+        System.out.println("Địa Chỉ:"+this.getAddress());
     }
+//nạp trồng (overload)
+    //gi đè (override)
 
 }
